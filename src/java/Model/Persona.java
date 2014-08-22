@@ -37,7 +37,7 @@ public class Persona implements Serializable {
     @Column(name = "NOMBRE", length = 30)
     private String nombre;
     @Column(name = "TELEFONO", length = 15)
-    private String telefono;
+    private Integer telefono;
 
     public Persona() {
     }
@@ -62,11 +62,11 @@ public class Persona implements Serializable {
         this.nombre = nombre;
     }
 
-    public String getTelefono() {
+    public Integer getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(Integer telefono) {
         this.telefono = telefono;
     }
 

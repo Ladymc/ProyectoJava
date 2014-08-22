@@ -21,9 +21,11 @@
 </H2>
 
 <form action='Servlet1'method='Post'>
+    <span>Id:</span>
+    <INPUT type="text" name="Id"/>
     <span>Nombre:</span>
     <INPUT type="text" name="Nombre"/>
-    <SPAN> Edad:</SPAN>
-    <input type="Number" name="Edad"/>
+    <SPAN> Telefono:</SPAN>
+    <input type="Number" name="Telefono"/>
     <input type="submit" name="Enviar" value ="Enviar"/>
 </form>
